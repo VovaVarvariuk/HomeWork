@@ -1,0 +1,58 @@
+body {
+  height: 100vh;
+  min-height: 100%;
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.signUp_form {
+  width: 600px;
+  height: 470px;
+  background: #efefef;
+  box-sizing: border-box;
+}
+.signUp_form_title {
+  height: 110px;
+  background: #3e99cc;
+  color: white;
+  font-weight: 700;
+  font-size: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.signUp_form_inputBlock {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  overflow-y: hidden;
+  padding: 50px 36px 40px;
+}
+.signUp_form_field {
+  height: 70px;
+  margin-top: 30px;
+  border: 2px solid #d3d2d1;
+  font-size: 24px;
+  color: #6a6a6a;
+}
+.signUp_form_field:first-child {
+  margin-top: 0;
+}
+.signUp_form_field::placeholder {
+  color: #dadad9;
+  padding: 0 20px;
+  font-size: 24px;
+}
+.signUp_form_button {
+  background: #3e99cc;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 32px;
+  height: 70px;
+  margin-top: 30px;
+}

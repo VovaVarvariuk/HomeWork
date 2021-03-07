@@ -1,0 +1,215 @@
+@import "gilroy-medium.css";
+@import "gilroy-bold.css";
+
+body {
+  height: 100vh;
+  font-family: "Gilroy-Bold";
+}
+.header {
+  display: flex;
+}
+.header_nav {
+  width: 940px;
+  height: 88px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #828282;
+}
+.header_nav_ancher {
+  padding: 33px 0;
+}
+.header_links {
+  font-size: 18px;
+  line-height: 22px;
+  color: #828282;
+}
+.header_links:hover {
+  font-weight: bold;
+  color: #000;
+}
+.main_paige {
+  margin: auto;
+  width: 940px;
+  display: flex;
+  flex-direction: column;
+}
+.main_title_info {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 40px 0 50px 0;
+}
+.main_title_right {
+  font-size: 47px;
+  line-height: 59px;
+}
+.main_title_center {
+  font-family: "Gilroy-Medium";
+  font-size: 18px;
+  line-height: 22px;
+}
+.main_title_left {
+  font-size: 16px;
+  line-height: 20px;
+  color: #000;
+  transform: rotate(-90deg);
+  padding: 50px 0 0 0;
+}
+.main_link_lang {
+  color: #828282;
+}
+.main_link_lang:hover {
+  font-weight: bold;
+  color: #000;
+}
+.main_img {
+  margin-bottom: 100px;
+  overflow: hidden;
+}
+.about_me {
+  background: #f6f6f6;
+}
+.about_me_title {
+  font-size: 34px;
+  line-height: 42px;
+  text-align: center;
+  padding: 120px 0 15px 0;
+}
+.about_me_text {
+  height: 320px;
+  padding: 0 0 100px;
+  font-family: "Gilroy-Medium";
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.skills_title {
+  font-size: 34px;
+  line-height: 42px;
+  padding: 90px 0 70px 0;
+}
+.skills_second_title {
+  font-family: "Gilroy-Medium";
+  font-size: 18px;
+  line-height: 22px;
+  padding: 0 0 85px;
+}
+.box_skills {
+  display: flex;
+  padding: 0 0 110px;
+}
+.my_skill1,
+.my_skill2,
+.my_skill3,
+.my_skill4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.my_skill_img1,
+.my_skill_img2,
+.my_skill_img3,
+.my_skill_img4 {
+  padding: 0 0 25px;
+}
+.title_my_skill1,
+.title_my_skill2,
+.title_my_skill3 {
+  text-align: center;
+  padding: 0 0 40px;
+  font-size: 14px;
+  line-height: 17px;
+  color: #828282;
+}
+.title_my_skill4 {
+  text-align: center;
+  padding: 0 0 55px;
+  font-size: 14px;
+  line-height: 17px;
+  color: #828282;
+}
+.skills_star {
+  padding: 0 10px 0 0;
+}
+.skills_level {
+  padding: 0 90px 0;
+}
+.skills_level .skills_star:last-child {
+  padding: 0;
+}
+.portfolio {
+  background: #f6f6f6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.portfolio_title {
+  font-size: 34px;
+  line-height: 42px;
+  padding: 110px 0 50px;
+}
+.porfolio_first_title,
+.porfolio_second_title,
+.porfolio_third_title {
+  padding: 45px 0 100px;
+  font-family: "Gilroy-Medium";
+  font-size: 18px;
+  line-height: 22px;
+}
+.portfolio_ancher {
+  color: black;
+  text-decoration: underline;
+}
+.contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contacts_title {
+  padding: 110px 0 20px;
+  font-size: 34px;
+  line-height: 42px;
+}
+.contacts_title_explication {
+  padding: 0 0 30px;
+  font-family: "Gilroy-Medium";
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+}
+.contacts_btn {
+  width: 180px;
+  height: 42px;
+  background: #070707;
+  color: #fff;
+  font-size: 18px;
+  line-height: 22px;
+  border-radius: 25px;
+  margin: 0 0 90px;
+}
+.contacts_img {
+  display: flex;
+}
+.contacts_image_wraper {
+  padding: 0 60px 0 0;
+}
+.contacts_img .contacts_image_wraper:last-child {
+  padding: 0;
+}
+.contacts_like_me_on {
+  font-family: "Gilroy-Medium";
+  color: #828282;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  padding: 45px 0 125px;
+}
