@@ -25,7 +25,7 @@ console.log(a11);
 
 // Приоритет оператора && больше, чем у ||
 
-let b = true && 7 || false && '';  //(1) true && 7 = 7; (2) false && '' = ''; (3) 7 || '' = 7;
+let b = true && 7 || false && '';  //(1) true && 7 = 7; (2) false && '' = false; (3) 7 || false = 7;
 console.log(b);
 
 let b1 = 0 || 3 && true && !3; // (1) 3 && true = true; (2) true && !3 = false; (3) 0 || false = false;
