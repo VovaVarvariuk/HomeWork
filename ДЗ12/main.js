@@ -23,11 +23,13 @@ console.log(a10);
 let a11 = !5 && 7; // false
 console.log(a11);
 
-let b = true && 7 || false && '';  //true && 7 = 7; 7 || false = 7; 7 && '' = 7;
+// Приоритет оператора && больше, чем у ||
+
+let b = true && 7 || false && '';  //(1) true && 7 = 7; (2) false && '' = ''; (3) 7 || '' = 7;
 console.log(b);
 
-let b1 = 0 || 3 && true && !3; // 0 || 3 = 3; 3 && true = true; true && !3 = false;
+let b1 = 0 || 3 && true && !3; // (1) 3 && true = true; (2) true && !3 = false; (3) 0 || false = false;
 console.log (b1);
 
-let b2 = !!!false && !5 || 1 && true; // !!!false && !5 = false; !5 || 1 = 1; 1 && true = true;
+let b2 = !!!false && !5 || 1 && true; // (1) !!!false && !5 = false; (2) 1 && true = true; (3) false || true = true;
 console.log (b2);
