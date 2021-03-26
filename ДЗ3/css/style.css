@@ -7,7 +7,7 @@ body {
     rgba(32, 124, 202, 1) 51%,
     rgba(125, 185, 232, 1) 100%
   );
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
 }
 .container {
   display: flex;
